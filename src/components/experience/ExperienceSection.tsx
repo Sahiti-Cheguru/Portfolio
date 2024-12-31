@@ -83,7 +83,7 @@ const experiences = [
         title: "Master's in Computer Science",
         company: "State University of New Paltz at New York",
         companyUrl: "https://www.newpaltz.edu", 
-        duration: "2022 - 2024",
+        duration: "",
         description: [
           "Specialized in Software Engineering and Distributed Systems",
           "Research focus on cloud computing and scalable architectures",
@@ -96,7 +96,7 @@ const experiences = [
         title: "Bachelor's in Computer Science",
         company: "MLR Institute of Technology",
         companyUrl: "https://mlrit.ac.in/", 
-        duration: "2017 - 2021",
+        duration: "",
         description: [
           "Major in Computer Science with focus on Software Development",
           "Dean's List all semesters",
