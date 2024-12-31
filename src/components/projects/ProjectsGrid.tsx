@@ -33,7 +33,7 @@ const projects = [
     description: 'Developed a web application that transforms simple ingredients into delectable meal suggestions.',
     tech: ['ReactJS', 'NextJS', 'APIDB', 'Hooks','Vue.js'],
     github: 'https://github.com/GaneshVarma1/Fridge-to-Feast',
-    demo: 'https://demo.com',
+    demo: 'https://fridge-to-feastapp.vercel.app//',
     image: 'fridgetofood.gif'
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     description: 'Designed a meticulously detailed replica of the official Netflix website.',
     tech: ['Vue.js', 'React', 'NextJS', 'API'],
     github: 'https://github.com/GaneshVarma1/Netflix-clone',
-    demo: 'https://netflix-clone-application-beta.vercel.app/',
+    demo: 'https://netflixclonebysri.vercel.app//',
     image: 'netflix.gif'
   },
   {

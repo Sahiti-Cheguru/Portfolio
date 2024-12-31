@@ -20,19 +20,25 @@ export function Navigation() {
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
+  
     if (element) {
-      const offset = 80; // Height of the fixed navbar
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
-
+      // Get the actual navbar height dynamically
+      const navbarHeight = document.querySelector('nav')?.offsetHeight || 0;
+  
+      // Calculate the position to scroll to
+      const targetPosition = element.offsetTop - navbarHeight;
+  
+      // Smooth scroll to the calculated position
       window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
+        top: targetPosition,
+        behavior: 'smooth',
       });
+  
+      // Close the menu after scrolling
+      setTimeout(() => setIsMenuOpen(false), 300); // Adjust delay as needed
     }
-    setIsMenuOpen(false);
   };
-
+  
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
