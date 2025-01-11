@@ -1,4 +1,3 @@
-import React from "react";
 import { Github, Linkedin, Mail, Instagram } from "lucide-react";
 import { motion } from "framer-motion";
 import { FloatingEmoji } from "./FloatingEmoji";
@@ -40,7 +39,7 @@ const avatars = [
 const emojis = [
   { emoji: "💻", delay: 0, duration: 4, position: { x: 75, y: 20 } },
   { emoji: "🚀", delay: 1, duration: 5, position: { x: 85, y: 40 } },
-  { emoji: "🌟", delay: 2, duration: 6, position: { x: 80, y: 60 } },
+  { emoji: "🍦", delay: 2, duration: 6, position: { x: 80, y: 60 } },
   { emoji: "🗽", delay: 1.5, duration: 4.5, position: { x: 70, y: 80 } },
 ];
 
@@ -79,7 +78,6 @@ export function Hero() {
                 href="https://reactwind.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline"
               >
                 ReactWind
               </a>
@@ -135,7 +133,7 @@ export function Hero() {
               href="https://drive.google.com/file/d/1BrPG03icph8hL7WE-asnDGgtZfIa90cU/view?usp=drive_link" // Replace with the external link
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-blue-500/25 transition-all duration-200 inline-block align-middle"
+              className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-xl font-semibold shadow-lg hover:shadow-blue-500/25 transition-all duration-200 inline-block align-middle"
             >
               Download Resume
             </motion.a>
