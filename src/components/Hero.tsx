@@ -99,7 +99,7 @@ export function Hero() {
                 Used by
               </span>
               <div>
-                <AvatarCircles numPeople={99} avatarUrls={avatars} />
+                <AvatarCircles numPeople={10} avatarUrls={avatars} />
               </div>
               <span className="text-xl font-bold text-gray-700 dark:text-gray-300">
                 Developers.

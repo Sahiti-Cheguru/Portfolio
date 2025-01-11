@@ -1,5 +1,4 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 interface ExperienceCardProps {
   title: string;
@@ -20,15 +19,15 @@ export function ExperienceCard({
   description,
   technologies,
   isSelected = false,
-  onClick
+  onClick,
 }: ExperienceCardProps) {
   return (
     <motion.div
       onClick={onClick}
       className={`p-6 rounded-lg cursor-pointer transition-all duration-300 ${
-        isSelected 
-          ? 'bg-blue-500/10 dark:bg-blue-500/5' 
-          : 'hover:bg-gray-100/50 dark:hover:bg-gray-800/50'
+        isSelected
+          ? "bg-blue-500/10 dark:bg-blue-500/5"
+          : "hover:bg-gray-100/50 dark:hover:bg-gray-800/50"
       }`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -63,7 +62,7 @@ export function ExperienceCard({
       </ul>
       <div className="flex flex-wrap gap-2">
         {technologies.map((tech, index) => (
-          <span 
+          <span
             key={index}
             className="text-xs px-2 py-1 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400"
           >
