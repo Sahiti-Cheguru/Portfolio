@@ -44,7 +44,7 @@ const avatars = [
 
 const emojis = [
   { emoji: "💻", delay: 0, duration: 4, position: { x: 75, y: 20 } },
-  { emoji: "🚀", delay: 1, duration: 5, position: { x: 85, y: 40 } },
+  { emoji: "🛩️", delay: 1, duration: 5, position: { x: 85, y: 40 } },
   { emoji: "🍦", delay: 2, duration: 6, position: { x: 80, y: 60 } },
   { emoji: "🗽", delay: 1.5, duration: 4.5, position: { x: 70, y: 80 } },
 ];
