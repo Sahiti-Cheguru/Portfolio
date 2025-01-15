@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode: "class", // Correct way to enable dark mode using a class
+  darkMode: "class",
   theme: {
     extend: {
       gridTemplateRows: {
@@ -64,6 +64,7 @@ export default {
       },
       animation: {
         rainbow: "rainbow var(--speed, 2s) infinite linear",
+        "spin-slow": "spin 3s linear infinite",
       },
       keyframes: {
         rainbow: {

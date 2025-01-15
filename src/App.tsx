@@ -1,11 +1,12 @@
-import React from 'react';
-import { Navigation } from './components/Navigation';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Projects } from './components/Projects';
-import { ExperienceSection } from './components/experience/ExperienceSection';
-import { CursorEffect } from './components/CursorEffect';
-import { Footer } from './components/footer/Footer';
+import { Navigation } from "./components/Navigation";
+import { Hero } from "./components/Hero";
+import { About } from "./components/About";
+import { Projects } from "./components/Projects";
+import { ExperienceSection } from "./components/experience/ExperienceSection";
+import { CursorEffect } from "./components/CursorEffect";
+import { Footer } from "./components/footer/Footer";
+import { Preview } from "./components/Preview";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <About />
       <ExperienceSection />
       <Projects />
+      <Preview />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

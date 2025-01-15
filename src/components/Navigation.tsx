@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { ThemeToggle } from './ThemeToggle';
+import React, { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,52 +12,50 @@ export function Navigation() {
       setIsScrolled(window.scrollY > 20);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navItems = ['About', 'Experience', 'Projects'];
+  const navItems = ["About", "Experience", "Projects", "Playground"];
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
-  
+
     if (element) {
       // Get the actual navbar height dynamically
-      const navbarHeight = document.querySelector('nav')?.offsetHeight || 0;
-  
+      const navbarHeight = document.querySelector("nav")?.offsetHeight || 0;
+
       // Calculate the position to scroll to
       const targetPosition = element.offsetTop - navbarHeight;
-  
+
       // Smooth scroll to the calculated position
       window.scrollTo({
         top: targetPosition,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
-  
+
       // Close the menu after scrolling
       setTimeout(() => setIsMenuOpen(false), 300); // Adjust delay as needed
     }
   };
-  
+
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+        isScrolled
+          ? "bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-lg"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-        <motion.a 
+          <motion.a
             href="#"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="text-3xl"
           >
-            <img 
-              src="ganesh.png" 
-              alt="Ganesh Icon" 
-              className="w-8 h-8"
-            />
+            <img src="ganesh.png" alt="Ganesh Icon" className="w-8 h-8" />
           </motion.a>
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
@@ -91,7 +89,7 @@ export function Navigation() {
           {isMenuOpen && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
+              animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800"
             >
