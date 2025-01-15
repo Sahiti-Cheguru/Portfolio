@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { TechGrid } from "./TechGrid";
-
 export function About() {
   return (
     <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900">
@@ -33,7 +32,6 @@ export function About() {
               implementing best practices in software development.
             </p>
           </motion.div>
-
           <div>
             <h3 className="text-2xl font-semibold mb-8 text-center text-gray-800 dark:text-gray-200">
               Technical Skills & Tools
