@@ -1,12 +1,11 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { TechGrid } from './TechGrid';
+import { motion } from "framer-motion";
+import { TechGrid } from "./TechGrid";
 
 export function About() {
   return (
     <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto px-4">
-        <motion.h2 
+        <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -14,7 +13,7 @@ export function About() {
         >
           About Me
         </motion.h2>
-        
+
         <div className="space-y-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -23,13 +22,15 @@ export function About() {
             className="prose prose-lg max-w-none dark:prose-invert"
           >
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              With over 4 years of experience in full-stack development, I specialize in building
-              scalable web applications using modern technologies. My passion lies in creating
-              efficient, maintainable code and delivering exceptional user experiences.
+              With over 4 years of experience in full-stack development, I
+              specialize in building scalable web applications using modern
+              technologies. My passion lies in creating efficient, maintainable
+              code and delivering exceptional user experiences.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I've successfully led multiple projects from conception to deployment, collaborating
-              with cross-functional teams and implementing best practices in software development.
+              I've successfully led multiple projects from conception to
+              deployment, collaborating with cross-functional teams and
+              implementing best practices in software development.
             </p>
           </motion.div>
 

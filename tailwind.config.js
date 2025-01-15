@@ -65,6 +65,8 @@ export default {
       animation: {
         rainbow: "rainbow var(--speed, 2s) infinite linear",
         "spin-slow": "spin 3s linear infinite",
+        marquee: "marquee 60s linear infinite",
+        "marquee-reverse": "marquee-reverse 25s linear infinite",
       },
       keyframes: {
         rainbow: {
@@ -74,6 +76,14 @@ export default {
           "100%": {
             "background-position": "200%",
           },
+        },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+        "marquee-reverse": {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(0%)" },
         },
       },
     },
