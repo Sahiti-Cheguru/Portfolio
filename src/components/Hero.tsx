@@ -8,6 +8,7 @@ import AvatarCircles from "@/components/ui/avatar-circles";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
+import { LinkPreview } from "@/components/ui/link-preview";
 
 const avatars = [
   {
@@ -79,14 +80,17 @@ export function Hero() {
               exceptional user experiences.
             </p>
             <h5 className="text-xl text-gray-700 dark:text-gray-300 flex items-center flex-wrap gap-x-2 gap-y-1">
-              Building
-              <a
-                href="https://reactwind.com"
-                target="_blank"
-                rel="noopener noreferrer"
+              Building{" "}
+              <LinkPreview
+                url="https://reactwind.com"
+                className="font-bold text-blue-500 hover:text-blue-600 transition-colors"
+                isStatic={true}
+                imageSrc="https://i.postimg.cc/nCMcx58c/Screenshot-2025-01-15-at-6-16-37-PM.png"
+                width={200}
+                height={125}
               >
                 ReactWind
-              </a>
+              </LinkPreview>{" "}
               Free Components Using React
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"

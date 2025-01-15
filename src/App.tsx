@@ -7,20 +7,23 @@ import { CursorEffect } from "./components/CursorEffect";
 import { Footer } from "./components/footer/Footer";
 import { Preview } from "./components/Preview";
 import { ScrollToTop } from "./components/ScrollToTop";
+import { ThemeProvider } from "./components/ThemeProvider";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
-      <CursorEffect />
-      <Navigation />
-      <Hero />
-      <About />
-      <ExperienceSection />
-      <Projects />
-      <Preview />
-      <Footer />
-      <ScrollToTop />
-    </div>
+    <ThemeProvider>
+      <div className="min-h-screen bg-white dark:bg-gray-900">
+        <CursorEffect />
+        <Navigation />
+        <Hero />
+        <About />
+        <ExperienceSection />
+        <Projects />
+        <Preview />
+        <Footer />
+        <ScrollToTop />
+      </div>
+    </ThemeProvider>
   );
 }
 

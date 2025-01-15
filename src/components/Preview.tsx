@@ -97,13 +97,13 @@ const technologies = [
     size: "text-7xl sm:text-8xl md:text-9xl",
   },
   {
-    name: "⭐",
+    name: "⚽️",
     x: "65%",
     y: "25%",
     size: "text-7xl sm:text-8xl md:text-9xl",
   },
   {
-    name: "🌟",
+    name: "⚾️",
     x: "45%",
     y: "15%",
     size: "text-7xl sm:text-8xl md:text-9xl",
