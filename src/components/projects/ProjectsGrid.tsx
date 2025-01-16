@@ -3,6 +3,24 @@ import { ProjectCard } from "./ProjectCard";
 
 const projects = [
   {
+    title: "ReactWind",
+    description:
+      "Place where you can find all Components made with React and TailwindCSS Free",
+    tech: [
+      "React",
+      "TailwindCSS",
+      "JavaScript",
+      "TypeScript",
+      "NextJS",
+      "Vercel",
+      "Shadcn",
+      "LucidIcons",
+    ],
+    github: "https://github.com/GaneshVarma1/",
+    demo: "https://reactwind.com",
+    image: "reactwind.gif",
+  },
+  {
     title: "MME Worldwide",
     description:
       "Redesigned Event Management and Hospitality agency known for creating extraordinary, first-class experiences.",
@@ -10,15 +28,6 @@ const projects = [
     github: "https://github.com/GaneshVarma1",
     demo: "https://mmecreativepartners.com/",
     image: "mme.gif",
-  },
-  {
-    title: "FiDi Hospitality",
-    description:
-      "Designed Full Web Application from Start to Finish with Custom CSS.",
-    tech: ["JavaScript", "CSS", "HTML", "SCSS", "PHP"],
-    github: "https://github.com/GaneshVarma1",
-    demo: "https://www.fidihospitality.com",
-    image: "fidi.gif",
   },
   {
     title: "Tesla Clone",
@@ -80,6 +89,15 @@ const projects = [
     github: "https://github.com/GaneshVarma1/Flownia",
     demo: "https://ganeshvarma1.github.io/Flownia/",
     image: "flownia.gif",
+  },
+  {
+    title: "FiDi Hospitality",
+    description:
+      "Designed Full Web Application from Start to Finish with Custom CSS.",
+    tech: ["JavaScript", "CSS", "HTML", "SCSS", "PHP"],
+    github: "https://github.com/GaneshVarma1",
+    demo: "https://www.fidihospitality.com",
+    image: "fidi.gif",
   },
   {
     title: "Rocket Apply (Start-up)",

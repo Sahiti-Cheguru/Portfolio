@@ -1,6 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Github, ExternalLink } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Github, ExternalLink } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
@@ -11,7 +10,14 @@ interface ProjectCardProps {
   image: string;
 }
 
-export function ProjectCard({ title, description, tech, github, demo, image }: ProjectCardProps) {
+export function ProjectCard({
+  title,
+  description,
+  tech,
+  github,
+  demo,
+  image,
+}: ProjectCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -27,11 +33,7 @@ export function ProjectCard({ title, description, tech, github, demo, image }: P
           className="relative h-full"
         >
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          <img
-            src={image}
-            alt={title}
-            className="w-full h-full object-cover"
-          />
+          <img src={image} alt={title} className="w-full h-full object-cover" />
         </motion.div>
       </div>
       <div className="p-6">

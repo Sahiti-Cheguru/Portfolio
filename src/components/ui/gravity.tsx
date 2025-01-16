@@ -161,8 +161,20 @@ const MatterBody = ({
       ...props,
     });
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     return () => context.unregisterElement(idRef.current);
-  }, [props, children, matterBodyOptions, isDraggable]);
+  }, [
+    props,
+    children,
+    matterBodyOptions,
+    isDraggable,
+    context,
+    bodyType,
+    sampleLength,
+    x,
+    y,
+    angle,
+  ]);
 
   return (
     <div
@@ -430,7 +442,15 @@ const Gravity = forwardRef<GravityRef, GravityProps>(
         runner.current.enabled = true;
         startEngine();
       }
-    }, [updateElements, debug, autoStart]);
+    }, [
+      gravity.x,
+      gravity.y,
+      debug,
+      addTopWall,
+      grabCursor,
+      updateElements,
+      autoStart,
+    ]);
 
     // Clear the Matter.js world
     const clearRenderer = useCallback(() => {

@@ -18,21 +18,17 @@ function Preview() {
             <MatterBody
               key={tech.name}
               matterBodyOptions={{
-                friction: 0.5,
-                restitution: 0.2,
+                restitution: 0.8,
+                friction: 0.01,
                 density: 0.001,
-                isStatic: false,
-                collisionFilter: {
-                  category: 0x0001,
-                },
               }}
               isDraggable={true}
               x={tech.x}
               y={tech.y}
-              angle={tech.angle || 0}
+              angle={tech.angle}
             >
               <div
-                className={`${tech.size} hover:cursor-grab active:cursor-grabbing p-4`}
+                className={`${tech.size} hover:cursor-grab active:cursor-grabbing`}
               >
                 {tech.name}
               </div>
@@ -40,13 +36,9 @@ function Preview() {
           ))}
           <MatterBody
             matterBodyOptions={{
-              friction: 0.5,
-              restitution: 0.2,
+              restitution: 0.8,
+              friction: 0.01,
               density: 0.001,
-              isStatic: false,
-              collisionFilter: {
-                category: 0x0001,
-              },
             }}
             isDraggable={true}
             x="60%"
@@ -55,7 +47,7 @@ function Preview() {
             <img
               src="https://i.postimg.cc/svvKttzJ/image.png"
               alt="Tech illustration"
-              className="w-auto h-auto max-w-none"
+              className="w-40 h-40 object-contain hover:cursor-grab active:cursor-grabbing"
               style={{
                 imageRendering: "auto",
                 WebkitBackfaceVisibility: "hidden",
@@ -104,6 +96,12 @@ const technologies = [
   },
   {
     name: "⚾️",
+    x: "45%",
+    y: "15%",
+    size: "text-7xl sm:text-8xl md:text-9xl",
+  },
+  {
+    name: "🏀",
     x: "45%",
     y: "15%",
     size: "text-7xl sm:text-8xl md:text-9xl",
