@@ -31,14 +31,11 @@ export function ScrollToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 group"
+          className="fixed bottom-24 right-8 z-[9999] group"
           aria-label="Scroll to top"
         >
           <div className="relative flex items-center justify-center">
-            {/* Outer ring with gradient animation */}
             <div className="absolute w-12 h-12 rounded-full animate-spin-slow bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500" />
-
-            {/* Inner circle */}
             <div className="relative w-10 h-10 bg-white dark:bg-gray-900 rounded-full flex items-center justify-center">
               <ArrowUp className="h-5 w-5 text-gray-600 dark:text-gray-300 transition-transform duration-300 group-hover:-translate-y-1" />
             </div>
