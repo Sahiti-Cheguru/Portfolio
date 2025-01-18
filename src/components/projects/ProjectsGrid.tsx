@@ -5,7 +5,7 @@ const projects = [
   {
     title: "ReactWind",
     description:
-      "Place where you can find all Components made with React and TailwindCSS Free",
+      "A one-stop destination for free, professionally designed components crafted with React and Tailwind CSS.",
     tech: [
       "React",
       "TailwindCSS",
@@ -23,11 +23,32 @@ const projects = [
   {
     title: "MME Worldwide",
     description:
-      "Redesigned Event Management and Hospitality agency known for creating extraordinary, first-class experiences.",
-    tech: ["JavaScript", "CSS", "HTML", "SCSS", "PHP"],
+      "A newly redefined Event Management and Hospitality agency, distinguished for curating exceptional and premium experiences with unparalleled professionalism.",
+    tech: ["JavaScript", "CSS", "HTML", "SCSS", "PHP", "ReactJS"],
     github: "https://github.com/GaneshVarma1",
     demo: "https://mmecreativepartners.com/",
     image: "mme.gif",
+  },
+  {
+    title: "CandyStore",
+    description:
+      "Built a candy store website using t3 stack,auth and payment gateway with stripe and clerk.",
+    tech: [
+      "React",
+      "TailwindCSS",
+      "JavaScript",
+      "TypeScript",
+      "NextJS",
+      "Vercel",
+      "t3 stack",
+      "Shadcn",
+      "LucidIcons",
+      "Stripe",
+      "Clerk",
+    ],
+    github: "https://github.com/GaneshVarma1/",
+    demo: "https://candistore.vercel.app/",
+    image: "candy.gif",
   },
   {
     title: "Tesla Clone",
