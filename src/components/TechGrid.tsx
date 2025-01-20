@@ -1,6 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import * as icons from 'simple-icons';
+import { motion } from "framer-motion";
+import * as icons from "simple-icons";
 
 interface TechnologyCategory {
   title: string;
@@ -18,10 +17,9 @@ const technologies: TechnologyCategory[] = [
       { name: "TypeScript", iconSlug: "typescript" },
       { name: "Python", iconSlug: "python" },
       { name: "PHP", iconSlug: "php" },
-      { name: "Ruby", iconSlug: "ruby" },
       { name: "C++", iconSlug: "cplusplus" },
-      { name: "SQL", iconSlug: "mysql" }
-    ]
+      { name: "SQL", iconSlug: "mysql" },
+    ],
   },
   {
     title: "Frontend",
@@ -35,8 +33,7 @@ const technologies: TechnologyCategory[] = [
       { name: "Tailwind CSS", iconSlug: "tailwindcss" },
       { name: "SCSS", iconSlug: "sass" },
       { name: "Redux", iconSlug: "redux" },
-      { name: "D3.js", iconSlug: "d3dotjs" }
-    ]
+    ],
   },
   {
     title: "Backend & Databases",
@@ -44,8 +41,8 @@ const technologies: TechnologyCategory[] = [
       { name: "Node.js", iconSlug: "nodedotjs" },
       { name: "Express", iconSlug: "express" },
       { name: "MySQL", iconSlug: "mysql" },
-      { name: "PostgreSQL", iconSlug: "postgresql" }
-    ]
+      { name: "PostgreSQL", iconSlug: "postgresql" },
+    ],
   },
   {
     title: "Developer Tools",
@@ -53,17 +50,15 @@ const technologies: TechnologyCategory[] = [
       { name: "Git", iconSlug: "git" },
       { name: "Docker", iconSlug: "docker" },
       { name: "Kubernetes", iconSlug: "kubernetes" },
-      { name: "Jenkins", iconSlug: "jenkins" },
       { name: "AWS", iconSlug: "amazonaws" },
       { name: "Vercel", iconSlug: "vercel" },
       { name: "Webpack", iconSlug: "webpack" },
-      { name: "Babel", iconSlug: "babel" },
       { name: "VSCode", iconSlug: "visualstudiocode" },
       { name: "Eclipse", iconSlug: "eclipseide" },
       { name: "Figma", iconSlug: "figma" },
       { name: "WordPress", iconSlug: "wordpress" },
-      { name: "Elementor", iconSlug: "elementor" }
-    ]
+      { name: "Elementor", iconSlug: "elementor" },
+    ],
   },
   {
     title: "Machine Learning & Data Science",
@@ -71,10 +66,8 @@ const technologies: TechnologyCategory[] = [
       { name: "Pandas", iconSlug: "pandas" },
       { name: "NumPy", iconSlug: "numpy" },
       { name: "TensorFlow", iconSlug: "tensorflow" },
-      { name: "Keras", iconSlug: "keras" },
-      { name: "Scikit-learn", iconSlug: "scikitlearn" }
-    ]
-  }
+    ],
+  },
 ];
 
 const container = {
@@ -82,22 +75,22 @@ const container = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.1
-    }
-  }
+      staggerChildren: 0.1,
+    },
+  },
 };
 
 const item = {
   hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0 }
+  show: { opacity: 1, y: 0 },
 };
 
 export function TechGrid() {
   const getIcon = (slug: string) => {
     try {
       const iconKey = `si${slug.charAt(0).toUpperCase()}${slug.slice(1)}`;
-      return (icons as any)[iconKey]?.path;
-    } catch (error) {
+      return (icons as Record<string, { path: string }>)[iconKey]?.path;
+    } catch {
       console.error(`Icon not found for slug: ${slug}`);
       return null;
     }
