@@ -8,7 +8,6 @@ import { Footer } from "./components/footer/Footer";
 import { Preview } from "./components/Preview";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { ThemeProvider } from "./components/ThemeProvider";
-import { Chatbot } from "./components/Chatbot";
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
         <Preview />
         <Footer />
         <ScrollToTop />
-        <Chatbot />
       </div>
     </ThemeProvider>
   );
