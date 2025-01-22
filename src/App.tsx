@@ -24,7 +24,7 @@ function AppContent() {
           color={theme === "dark" ? "255, 255, 255" : "0, 0, 0"}
           outerAlpha={0.3}
           innerScale={0.7}
-          outerScale={2.5}
+          outerScale={2.0}
           clickables={[
             "a",
             'input[type="text"]',
