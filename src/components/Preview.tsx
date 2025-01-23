@@ -46,7 +46,7 @@ function Preview() {
           >
             <img
               src="https://i.postimg.cc/svvKttzJ/image.png"
-              alt="Tech illustration"
+              alt="My Memoji"
               className="w-40 h-40 object-contain hover:cursor-grab active:cursor-grabbing"
               style={{
                 imageRendering: "auto",
