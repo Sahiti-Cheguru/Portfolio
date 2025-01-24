@@ -21,6 +21,20 @@ const experiences = [
         technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker"],
       },
       {
+        title: "Web Developer and Technical SEO",
+        company: "6 Degrees Media",
+        companyUrl: "https://www.6degreesmedia.com",
+        duration: "2024 Jun - 2024 Jul",
+        description: [
+          "Developed responsive web applications using HTML, CSS, JavaScript, and React.js.",
+          "Implemented SEO best practices and optimized site structure, leading to a 50% increase in organic search traffic.",
+          "Collaborated with designers and backend developers to integrate RESTful APIs.",
+          "Utilized Git for version control and ensured efficient code management.",
+          "Deployed web applications to Vercel for fast and reliable hosting.",
+        ],
+        technologies: ["HTML", "CSS", "React", "SEO", "Git", "Vercel"],
+      },
+      {
         title: "Web Developer & Graduate Assistant",
         company: "SUNY New Paltz",
         companyUrl: "https://www.newpaltz.edu",
@@ -53,20 +67,6 @@ const experiences = [
           "HTML/CSS",
           "JavaScript",
         ],
-      },
-      {
-        title: "Web Developer and Technical SEO",
-        company: "6 Degrees Media",
-        companyUrl: "https://www.6degreesmedia.com",
-        duration: "2024 Jun - 2024 Jul",
-        description: [
-          "Developed responsive web applications using HTML, CSS, JavaScript, and React.js.",
-          "Implemented SEO best practices and optimized site structure, leading to a 50% increase in organic search traffic.",
-          "Collaborated with designers and backend developers to integrate RESTful APIs.",
-          "Utilized Git for version control and ensured efficient code management.",
-          "Deployed web applications to Vercel for fast and reliable hosting.",
-        ],
-        technologies: ["HTML", "CSS", "React", "SEO", "Git", "Vercel"],
       },
       {
         title: "Web Developer",
