@@ -89,7 +89,11 @@ export function TechGrid() {
   const getIcon = (slug: string) => {
     try {
       const iconKey = `si${slug.charAt(0).toUpperCase()}${slug.slice(1)}`;
-      return (icons as Record<string, { path: string }>)[iconKey]?.path;
+      return (
+        icons as unknown as {
+          [key: string]: { path: string; hex: string; title: string };
+        }
+      )[iconKey]?.path;
     } catch {
       console.error(`Icon not found for slug: ${slug}`);
       return null;
