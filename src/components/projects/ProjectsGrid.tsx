@@ -74,7 +74,7 @@ const projects = [
       "Designed a meticulously detailed replica of the official Netflix website.",
     tech: ["Vue.js", "React", "NextJS", "API"],
     github: "https://github.com/GaneshVarma1/Netflix-clone",
-    demo: "https://netflixclonebysri.vercel.app//",
+    demo: "https://srinetflix.vercel.app/",
     image: "netflix.gif",
   },
   {
