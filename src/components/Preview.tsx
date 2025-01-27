@@ -106,6 +106,12 @@ const technologies = [
     y: "15%",
     size: "text-7xl sm:text-8xl md:text-9xl",
   },
+  {
+    name: "🏈",
+    x: "45%",
+    y: "15%",
+    size: "text-7xl sm:text-8xl md:text-9xl",
+  },
 ];
 
 export { Preview };
