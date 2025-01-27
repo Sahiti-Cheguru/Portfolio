@@ -89,7 +89,7 @@ export function Hero() {
                 width={200}
                 height={125}
               >
-                ReactWind
+                ReactWind ,
               </LinkPreview>{" "}
               Free Components Using React
               <img
