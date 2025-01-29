@@ -11,7 +11,7 @@ export function AnimatedCursorComponent() {
     <AnimatedCursor
       innerSize={8}
       outerSize={35}
-      color={theme === "dark" ? "96, 165, 250" : "59, 130, 246"} // RGB values for the same blues
+      color={theme === "dark" ? "96, 165, 250" : "59, 130, 246"}
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={2.5}
