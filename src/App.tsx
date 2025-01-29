@@ -8,12 +8,14 @@ import { Preview } from "./components/Preview";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { useTheme } from "./components/ThemeProvider";
+import { AnimatedCursorComponent } from "./components/AnimatedCursorComponent";
 
 function AppContent() {
   useTheme();
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
+      <AnimatedCursorComponent />
       <Navigation />
       <Hero />
       <About />
