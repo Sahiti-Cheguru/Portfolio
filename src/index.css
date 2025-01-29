@@ -143,30 +143,8 @@
 @layer base {
   * {
     @apply border-border;
-    cursor: none !important;
   }
   body {
     @apply bg-background text-foreground;
-  }
-
-  /* Ensure cursor color changes with theme */
-  :root[class="light"] {
-    --cursor-color: rgb(0, 0, 0);
-  }
-
-  :root[class="dark"] {
-    --cursor-color: rgb(255, 255, 255);
-  }
-}
-
-/* Show default cursor for touch devices */
-@media (hover: none) and (pointer: coarse) {
-  * {
-    cursor: auto !important;
-  }
-
-  #cursor-dot,
-  #cursor-dot-outline {
-    display: none !important;
   }
 }
