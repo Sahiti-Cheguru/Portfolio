@@ -4,32 +4,32 @@ import { SocialLink } from './SocialLink';
 
 const socialLinks = [
   {
-    href: 'https://linkedin.com/in/sriganeshshiramshetty',
+    href: 'https://www.linkedin.com/in/sahiti-goud-08a87417a/',
     icon: Linkedin,
     label: 'LinkedIn'
   },
   {
-    href: 'https://github.com/Ganeshvarma1',
+    href: 'https://github.com/Sahiti-Cheguru',
     icon: Github,
     label: 'GitHub'
   },
   {
-    href: 'https://www.youtube.com/@ganeshvarma',
+    href: '',
     icon: Youtube,
     label: 'YouTube'
   },
   {
-    href: 'https://www.instagram.com/varmaaa.x_/',
+    href: '',
     icon: Instagram,
     label: 'Instagram'
   },
   {
-    href: 'https://drive.google.com/file/d/1BrPG03icph8hL7WE-asnDGgtZfIa90cU/view?usp=drive_link',
+    href: '',
     icon: FileDown,
     label: 'Download Resume'
   },
   {
-    href: 'mailto:sriganeshshiram@gmail.com',
+    href: 'mailto:cheguru.sahithi@gmail.com',
     icon: Mail,
     label: 'Email'
   }
@@ -43,7 +43,7 @@ export function Footer() {
           <p className="text-gray-600 dark:text-gray-400 text-center md:text-left">
             Designed by{' '}
             <span className="font-medium text-gray-900 dark:text-white">
-              Sri Ganesh Shiramshetty
+            SAHITI CHEGURU 
             </span>
           </p>
 

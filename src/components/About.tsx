@@ -21,16 +21,17 @@ export function About() {
             className="prose prose-lg max-w-none dark:prose-invert"
           >
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              With over 4 years of experience in full-stack development, I
-              specialize in building scalable web applications using modern
-              technologies. My passion lies in creating efficient, maintainable
-              code and delivering exceptional user experiences.
+            I am a Machine Learning Engineer & Data Scientist with 
+            4+ years of experience in Generative AI, specializing in Large Language Models 
+            (LLMs) and Retrieval-Augmented Generation (RAG). 
+            I develop AI-driven solutions for natural language understanding, content generation, 
+            and intelligent automation, leveraging retrieval-based techniques to enhance model accuracy and contextual relevance.
+
+
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I've successfully led multiple projects from conception to
-              deployment, collaborating with cross-functional teams and
-              implementing best practices in software development.
-            </p>
+            With expertise in optimizing AI pipelines, fine-tuning architectures, and scaling data workflows, I thrive in dynamic environments solving complex challenges. Passionate about cutting-edge AI, I aim to drive impactful innovations by leveraging LLMs,
+             RAG, and AI-driven systems to build scalable, high-performing applications that push the boundaries of intelligent automation.</p>
           </motion.div>
           <div>
             <h3 className="text-2xl font-semibold mb-8 text-center text-gray-800 dark:text-gray-200">

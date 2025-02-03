@@ -21,7 +21,6 @@ function AppContent() {
       <About />
       <ExperienceSection />
       <Projects />
-      <Preview />
       <Footer />
       <ScrollToTop />
     </div>

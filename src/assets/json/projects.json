@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Politically Biased News Detection using Natural Language Processing Techniques:",
+      "description": "Project 1 Description",
+      "tech": ["React", "TailwindCSS", "JavaScript", "TypeScript", "NextJS", "Vercel", "Shadcn", "LucidIcons"],
+      "github": "",
+      "image": ""
+    },
+    {
+      "title": "Covid-19 Time Series Forecasting using Deep Learning Techniques",
+      "description": "Project 2 Description",
+      "tech": ["JavaScript", "CSS", "HTML", "SCSS", "PHP", "ReactJS"],
+      "github": "",
+      "image": ""
+    },
+    {
+        "title": "Tensor Flow Model in Medical Image Analysis – Review on CT imaging in liver cancer research:",
+        "description": "Project 3 Description",
+        "tech": ["JavaScript", "CSS", "HTML", "SCSS", "PHP", "ReactJS"],
+        "github": "",
+        "image": ""
+    }
+  ]
+  

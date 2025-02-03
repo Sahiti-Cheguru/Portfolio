@@ -6,7 +6,6 @@ interface ProjectCardProps {
   description: string;
   tech: string[];
   github: string;
-  demo: string;
   image: string;
 }
 
@@ -15,7 +14,6 @@ export function ProjectCard({
   description,
   tech,
   github,
-  demo,
   image,
 }: ProjectCardProps) {
   return (
@@ -65,17 +63,7 @@ export function ProjectCard({
             <Github size={20} />
             <span>Code</span>
           </motion.a>
-          <motion.a
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            href={demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
-          >
-            <ExternalLink size={20} />
-            <span>Demo</span>
-          </motion.a>
+          
         </div>
       </div>
     </motion.div>

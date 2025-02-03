@@ -1,0 +1,83 @@
+[
+    {
+      "title": "Languages",
+      "items": [
+        { "name": "Python", "iconSlug": "python" },
+        { "name": "PySpark", "iconSlug": "apachespark" },
+        { "name": "R", "iconSlug": "r" },
+        { "name": "C", "iconSlug": "c" },
+        { "name": "C++", "iconSlug": "cplusplus" },
+        { "name": "Java", "iconSlug": "siJava" },
+        { "name": "JavaScript", "iconSlug": "javascript" },
+        { "name": "Node.js", "iconSlug": "nodedotjs" },
+        { "name": "React", "iconSlug": "react" },
+        { "name": "Spring Boot", "iconSlug": "spring" },
+        { "name": "Angular", "iconSlug": "angular" },
+        { "name": "SQL", "iconSlug": "mysql" },
+        { "name": "Kusto Query Language", "iconSlug": "microsoftazure" },
+        { "name": "XML", "iconSlug": "xml" },
+        { "name": "CSS", "iconSlug": "css3" },
+        { "name": "HTML", "iconSlug": "html5" },
+        { "name": "PHP", "iconSlug": "php" },
+        { "name": "jQuery", "iconSlug": "jquery" },
+        { "name": ".NET", "iconSlug": "dotnet" },
+        { "name": "Rails", "iconSlug": "rubyonrails" }
+      ]
+    },
+    {
+      "title": "Libraries",
+      "items": [
+        { "name": "Scikit-learn", "iconSlug": "scikitlearn" },
+        { "name": "NLTK", "iconSlug": "nltk" },
+        { "name": "SpaCy", "iconSlug": "spacy" },
+        { "name": "TensorFlow", "iconSlug": "tensorflow" },
+        { "name": "Keras", "iconSlug": "keras" },
+        { "name": "PyTorch", "iconSlug": "pytorch" },
+        { "name": "Pandas", "iconSlug": "pandas" },
+        { "name": "Matplotlib", "iconSlug": "matplotlib" },
+        { "name": "Seaborn", "iconSlug": "seaborn" },
+        { "name": "OpenCV", "iconSlug": "opencv" },
+        { "name": "CAD", "iconSlug": "autodesk" },
+        { "name": "Dlib", "iconSlug": "dlib" },
+        { "name": "MATLAB", "iconSlug": "matlab" },
+        { "name": "Caffe", "iconSlug": "caffe" }
+      ]
+    },
+    {
+      "title": "Tools",
+      "items": [
+        { "name": "SQL", "iconSlug": "mysql" },
+        { "name": "KQL", "iconSlug": "microsoftazure" },
+        { "name": "PostGIS", "iconSlug": "postgresql" },
+        { "name": "Tableau", "iconSlug": "tableau" },
+        { "name": "CUDA", "iconSlug": "nvidia" },
+        { "name": "PowerBI", "iconSlug": "powerbi" },
+        { "name": "VSCode", "iconSlug": "visualstudiocode" },
+        { "name": "Git", "iconSlug": "git" },
+        { "name": "Jupyter Notebook", "iconSlug": "jupyter" },
+        { "name": "Azure Data Explorer", "iconSlug": "microsoftazure" },
+        { "name": "PyCharm", "iconSlug": "pycharm" },
+        { "name": "Hugging Face", "iconSlug": "huggingface" }
+      ]
+    },
+    {
+      "title": "Platforms",
+      "items": [
+        { "name": "Windows", "iconSlug": "windows" },
+        { "name": "Unix", "iconSlug": "linux" },
+        { "name": "AWS", "iconSlug": "amazonaws" },
+        { "name": "Oracle DB", "iconSlug": "oracle" },
+        { "name": "GCP", "iconSlug": "googlecloud" },
+        { "name": "IBM Cloud", "iconSlug": "ibm" },
+        { "name": "Azure Data Lake Storage", "iconSlug": "microsoftazure" },
+        { "name": "Azure ML Studio", "iconSlug": "microsoftazure" },
+        { "name": "NVIDIA CUDA", "iconSlug": "nvidia" },
+        { "name": "MongoDB", "iconSlug": "mongodb" },
+        { "name": "Apache Hadoop", "iconSlug": "apachehadoop" },
+        { "name": "Hive", "iconSlug": "apachehive" },
+        { "name": "Pig", "iconSlug": "apachepig" },
+        { "name": "HBase", "iconSlug": "apachehbase" }
+      ]
+    }
+  ]
+  

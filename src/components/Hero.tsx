@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, Instagram } from "lucide-react";
 import { motion } from "framer-motion";
 import { FloatingEmoji } from "./FloatingEmoji";
 import { SocialLink } from "./SocialLink";
-import HeroImage from "../assets/Images/Hero.png";
+import MyImage from "../assets/Images/Me.jpg";
 import { WavingHand } from "./WavingHand";
 import AvatarCircles from "@/components/ui/avatar-circles";
 import { ArrowRight } from "lucide-react";
@@ -70,40 +70,15 @@ export function Hero() {
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               Hi <WavingHand />, This is{" "}
               <span className="bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
-                Sri Ganesh Shiramshetty
+                Sahiti Cheguru
               </span>
             </h1>
 
             <p className="text-xl text-gray-700 dark:text-gray-300">
-              A passionate Full Stack Software Engineer with 4+ years of
-              experience in building scalable applications and creating
-              exceptional user experiences.
+            Machine Learning Engineer & Data Scientist with 4+ years in Generative AI and data-centric innovations. 
+            Passionate about crafting cutting-edge AI solutions and ready to drive impactful projects.
             </p>
-            <h5 className="text-xl text-gray-700 dark:text-gray-300 flex items-center flex-wrap gap-x-2 gap-y-1">
-              Building{" "}
-              <LinkPreview
-                url="https://reactwind.com"
-                className="font-bold text-blue-500 hover:text-blue-600 transition-colors"
-                isStatic={true}
-                imageSrc="https://i.postimg.cc/nCMcx58c/Screenshot-2025-01-15-at-6-16-37-PM.png"
-                width={200}
-                height={125}
-              >
-                ReactWind ,
-              </LinkPreview>{" "}
-              Free Components Using React
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
-                alt="React Logo"
-                className="w-auto h-5"
-              />{" "}
-              + TailwindCSS
-              <img
-                src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
-                alt="Tailwind Logo"
-                className="w-auto h-5"
-              />
-            </h5>
+{/* 
             <div className="flex items-center space-x-2">
               <span className="text-xl font-bold text-gray-700 dark:text-gray-300">
                 Used by
@@ -114,25 +89,20 @@ export function Hero() {
               <span className="text-xl font-bold text-gray-700 dark:text-gray-300">
                 Developers.
               </span>
-            </div>
+            </div> */}
             <div className="flex gap-6 pt-4">
               <SocialLink
-                href="https://github.com/GaneshVarma1"
+                href="https://github.com/Sahiti-Cheguru"
                 icon={<Github />}
                 label="GitHub"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/sriganeshshiramshetty/"
+                href="https://www.linkedin.com/in/sahiti-goud-08a87417a/"
                 icon={<Linkedin />}
                 label="LinkedIn"
               />
               <SocialLink
-                href="https://www.instagram.com/varmaaa.x_/"
-                icon={<Instagram />}
-                label="Instagram"
-              />
-              <SocialLink
-                href="mailto:sriganeshshiram@gmail.com"
+                href="mailto:cheguru.sahithi@gmail.com"
                 icon={<Mail />}
                 label="Email"
               />
@@ -169,10 +139,7 @@ export function Hero() {
                   rel="noopener noreferrer"
                   className="inline-block"
                 >
-                  <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
-                    <span>✨ Checkout ReactWind</span>
-                    <ArrowRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
-                  </AnimatedShinyText>
+
                 </a>
               </div>
             </div>
@@ -183,13 +150,13 @@ export function Hero() {
               <motion.img
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3 }}
-                src={HeroImage}
-                alt="Sri Ganesh Shiramshetty"
+                src={MyImage}
+                alt="Sahiti Cheguru"
                 className="relative w-80 h-96 object-cover rounded-[15px] border-2 border-blue-400/20 shadow-2xl"
               />
 
               {/* Floating Emojis */}
-              {emojis.map((emojiProps, index) => (
+              {/* {emojis.map((emojiProps, index) => (
                 <FloatingEmoji
                   key={index}
                   emoji={emojiProps.emoji}
@@ -197,7 +164,7 @@ export function Hero() {
                   duration={emojiProps.duration}
                   initialPosition={emojiProps.position}
                 />
-              ))}
+              ))} */}
             </div>
           </motion.div>
         </motion.div>

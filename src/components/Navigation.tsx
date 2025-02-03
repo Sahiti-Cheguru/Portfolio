@@ -16,7 +16,7 @@ export function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navItems = ["About", "Experience", "Projects", "Playground"];
+  const navItems = ["About", "Experience", "Projects"];
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -55,7 +55,7 @@ export function Navigation() {
             whileTap={{ scale: 0.9 }}
             className="text-3xl"
           >
-            <img src="ganesh.png" alt="Ganesh Icon" className="w-8 h-8" />
+            <img src="sahiti.png" alt="Sahiti Icon" className="w-8 h-8" />
           </motion.a>
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (

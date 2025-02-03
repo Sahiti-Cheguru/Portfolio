@@ -1,0 +1,111 @@
+[
+    {
+      "category": "work",
+      "items": [
+        {
+          "title": "Machine Learning Engineer",
+          "company": "Quantiphi Inc,.",
+          "companyUrl": "https://quantiphi.com/",
+          "duration": "Feb 2024- Present",
+          "description": [
+            "Engineered a cutting-edge synthetic data generation system on AWS, integrating Bedrock, SageMaker, and S3, employing advanced language model techniques for scalability and efficiency.",
+            "Innovated in Automated Prompt Construction to automatically generate descriptive metadata for datasets, significantly reducing manual input.",
+            "Utilized LLM techniques for Dynamic Constraint Identification, enhancing data accuracy by automatically determining constraints and mapping relationships using few-shot prompting techniques.",
+            "Developed automated code generation to apply constraints seamlessly, optimizing data preparation for synthetic generation.",
+            "Refined data generation processes, dynamically adjusting parameters like batch sizes and streaming options to handle complex datasets.",
+            "Continuously assessed synthetic data against original datasets, driving high-quality output and iterative enhancements."
+          ],
+          "technologies": ["AWS", "LLM"]
+        },
+        {
+            "title": "Data Scientist",
+            "company": "Easley Dunn Productions",
+            "companyUrl": "https://easleydunnproductions.com/temp_index.html",
+            "duration": "June 2023- Jan 2024 ",
+            "description": [
+              "Led the development of AI models using advanced computer vision algorithms (CNN, Faster R-CNN, YOLO, SSD) for ammunition defect detection and game-level design evaluation, enhancing quality and player experience through balanced challenge progression and rewards."
+            ],
+            "technologies":  ["AWS", "LLM"]
+        }
+          ,
+        {
+            "title": "Data Scientist Intern",
+            "company": "Easley Dunn Productions",
+            "companyUrl": "https://www.xcelogroup.com/",
+            "duration": "Aug 2022- Apr 2023",
+            "description": [
+              "Developed and deployed an NLP-powered Email Content Generation System leveraging advanced transformer models (GPT-3, T5, BART, CTRL) for contextual analysis and personalized emails based on customer behavior.",
+              "Spearheaded the research and development of a Chatbot system, integrating transformer-based models for entity recognition and intent detection, resulting in a 30% reduction in customer support response time.",
+              "Orchestrated end-to-end NLP pipelines encompassing data preprocessing, feature engineering, model training, and deployment using AWS services (S3, SageMaker, Bedrock, Feature Store, and CloudWatch) to enable context-aware responses, optimizing marketing strategies.",
+              "Conducted A/B tests utilizing Generative AI model-generated marketing content, contributing to the optimization of messaging strategies.",
+              "Received recognition for outstanding contribution to the project, leading to a 25% increase in click-through rates using MLOPs pipelines."
+            ],
+            "technologies":  ["AWS", "LLM"]
+        }
+        ,
+        {
+            "title": "Data and Applied Scientist Intern",
+            "company": "Microsoft Corporation ",
+            "companyUrl": "https://learn.microsoft.com/en-us/gaming/playfab/features/multiplayer/servers/",
+            "duration": "May 2022-Aug 2022",
+            "description": [
+              "Spearheaded the deployment of TimeSeries forecasting algorithm on the PlayFabInternal database (approx 300K global dynamic data  points) to forecast the demand of “Standby VMs” required, saving approx. 568K dollars for XBox gaming organization. ",
+              "Trained the data with Prophet, Azure AutoML time-series forecasting algorithms using significant features, employed Cross- Validation and Hyperparameter Tuning, and carried out Performance and Error Analysis on the trained model. ",
+              "Developed interactive dashboards in Power BI for real-time equipment performance monitoring, providing actionable insights. "
+            ],
+            "technologies":  ["AWS", "LLM"]
+        }
+        ,
+        {
+            "title": "Data Scientist",
+            "company": "University of Southern California  ",
+            "companyUrl": "https://www.usc.edu/",
+            "duration": "Sept 2021-May 2022 ",
+            "description": [
+              "Enhanced customer churn prediction accuracy by 25% by implementing advanced machine learning algorithms, resulting in substantial cost savings, including Logistic Regression, Ensemble Modeling, Gradient Boosting, Random Forests, etc., ",
+              "Visualized data distributions, trends, and relationships using Matplotlib and Seaborn, facilitating intuitive insights into churn-related patterns.",
+              "Employed predictive modeling techniques, including ensemble methods and feature engineering, to optimize customer churn prediction.",
+              "Elevated model performance through cross-validation, hyperparameter tuning, and validated model efficacy using diverse metrics (Accuracy, Precision, Recall, F1-score, ROC AUC). ",
+              "Reduced development time by 30% with an end-to-end pipeline for data preparation, feature selection, and model training on Kubeflow.",
+              "Presented actionable insights through informative data visualizations, aiding strategic decisions for customer retention initiatives on Tableau."
+            ],
+            "technologies":  ["AWS", "LLM"]
+        }
+        ,
+        {
+            "title": "Data Scientist",
+            "company": " Culinda Inc,.   ",
+            "companyUrl": "https://culinda.io/",
+            "duration": "Jan 2020-Jun 2021",
+            "description": [
+              "Collaborated with Threat/Cyber Analytics team to develop an AI-based Intelligent Automation system for Anomaly-based Network Intrusion  Detection using Bayesian optimization and deep learning (CNN, RNN, Bi-GRU, GAN)."
+            ],
+            "technologies":  ["AWS", "LLM"]
+        }
+      ]
+    },
+    {
+      "category": "education",
+      "items": [
+        {
+          "title": "Master's in Computer Science",
+          "company": "University of Southern California, Viterbi School of Engineering ",
+          "companyUrl": "https://www.usc.edu/",
+          "duration": "",
+          "description": [
+            "Led the design and implementation of BERT and GPT-based computer vision transformer models for medical image analysis.",
+            "Integrated multi-modal fusion strategies, utilizing ResNet and DenseNet architectures for comprehensive patient health information.",
+            "Applied optimization techniques (model pruning, quantization, parallel processing) for efficient deployment in healthcare environments.",
+            "GPA: 4.0/4.0"
+          ],
+          "technologies": [
+            "Subject1",
+            "Subject2",
+            "Subject3",
+            "Subject4"
+          ]
+        }
+      ]
+    }
+  ]
+  
